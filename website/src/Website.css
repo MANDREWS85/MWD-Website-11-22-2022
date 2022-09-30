@@ -1,19 +1,33 @@
 a:link { color:black;text-decoration: none; }
 a:visited {color:black; text-decoration: none; }
-a:hover { color:grey;text-decoration:; }
-a:active { color:black;text-decoration:; }
+a:hover { color:#fcaf3e;text-decoration:none; }
+a:active { color:black;text-decoration:none; }
 
 
+button:hover{background-color:#fcaf3e;}
+h3:hover{color:#fcaf3e}
+h1:hover{color:#fcaf3e}
+  
+button {
+  color:white;
+  background-color:#013387;
+  border-radius:15px;
+  
 
+}
 
+h3 {
+  color:white;
+}
 
-
-
+p {
+  color:white;
+}
 
 .Website {
   text-align: left;
   color: white;
-  border: solid;
+  border: "";
   
 }
 

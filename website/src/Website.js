@@ -41,6 +41,8 @@ import ThreeColumnRoute from "./Routes/ThreeColumnPage";
 import GameRoute from "./Routes/GamePage";
 import TutorialRoute from "./Routes/TutorialPage";
 import SaleRoute from "./Routes/SalePage";
+import PythonTutorialRoute from "./Routes/PythonTutorialPage";
+
 
 
 ///      CONTENT  //////////////////////////////////////
@@ -66,10 +68,12 @@ function Website() {
   return (
     <div id={id} className={id} style={{backgroundImage:"url('https://cdn.dribbble.com/users/707433/screenshots/6720160/gears2.gif')",backgroundColor:"", backgroundRepeat:"",backgroundSize:"100%", opacity:"1",maxWidth:"1200px"}}>
 
-      <Banner title="MAG WEB DESIGNS" description="Front End Web / App Development | Tutorials and Training | Cloud Hosting / Administration Services " titleColor="white" textColor="white" link="#" image={banner2} color="white" height={100} />
+      <div style={{position:"sticky", top:"0",overflow:"hidden"}}>
+      <Banner  title="MAG WEB DESIGNS" description="Front End Web / App Development | Tutorials and Training | Cloud Hosting / Administration Services " titleColor="white" textColor="white" link="#" image={banner2} color="white" height={100} />
+      </div>
 
       <SaleRoute />
-      <RoutingComponent sticky="top" />
+      <RoutingComponent />
       {/*<GameRoute />*/}
       {/*<AboutRoute />*/}
       {/*<PortfolioRoute />*/}
