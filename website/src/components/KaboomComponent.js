@@ -77,10 +77,13 @@ export default function KaboomComponent() {
       // define what each symbol means, by a function returning a component list (what will be passed to add())
       "#": () => [
           k.text("#"),
+          k.rect(20,20),
+          k.outline(4),
           k.area(),
           k.solid(),
           k.rotate(),
           k.color(50,50,50),
+          
           "wall",
       ],
       
@@ -205,9 +208,11 @@ export default function KaboomComponent() {
     const player = k.add([
       k.text("(p)"),
       k.pos(50,500),
-      k.area({ width: 40, height: 40. }),
+      //k.area({ width: 40, height: 40. }),
+      k.area(),
       "player",
       k.scale(.25),
+      //k.solid(),
       //k.rect(5,5),
       //k.outline(4),
       //k.move(k.vec2(50,0),100),    
@@ -222,6 +227,7 @@ export default function KaboomComponent() {
       k.area({ width: 40, height: 40. }),
       "enemy",
       k.scale(.25),
+      //k.follow(player),
       //k.rect(5, 5),
       //k.outline(4),
     ])   
@@ -317,7 +323,7 @@ export default function KaboomComponent() {
   ///GAME LOOP
     k.onUpdate(() => {
 
-      //enemy.move(player.pos.angle(enemy.pos),200)
+      enemy.move(k.move(player.pos.angle(enemy.pos), 1200),)
 
       
       

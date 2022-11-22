@@ -7,10 +7,8 @@ import Iframe from '../components/Iframe'
 import OneColumn from '../components/OneColumn'
 import TwoColumn from '../components/TwoColumn'
 import ThreeColumn from '../components/ThreeColumn'
-import KaboomComponent from '../components/KaboomComponent'
-
+import KaboomComponent from '../components/KaboomComponent3'
 //import PhaserComponent from '../components/PhaserComponent'
-
 
 /// IMAGES   /////////////////////////////////////////////
 import reactLogo from "../images/React_logo_wordmark.png"
@@ -70,7 +68,12 @@ export default function GamePage() {
       />
       
       <OneColumn 
-        content=<KaboomComponent />
+        content=<div>
+                  
+                  
+        
+                </div>
+        
       />
       
 

@@ -1,6 +1,6 @@
 
-///  NPM INSTALL KABOOM FIRST
-import kaboom from "kaboom"
+///  NPM INSTALL FIRST
+
 import phaser from "phaser"
 
 export default function PhaserComponent() {
