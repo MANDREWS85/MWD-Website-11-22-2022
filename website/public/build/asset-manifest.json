@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4b16565f.css",
+    "main.js": "/static/js/main.119fc56e.js",
+    "static/media/portfolio-mi-grow-pro-1.jpg": "/static/media/portfolio-mi-grow-pro-1.8352787e04d0d52ab3af.jpg",
+    "static/media/portfolio-mwd-react-1.jpg": "/static/media/portfolio-mwd-react-1.f7293b0391d9fc59a988.jpg",
+    "static/media/Wordpress2.png": "/static/media/Wordpress2.f1c9b08e0028ba5ed7be.png",
+    "static/media/React_logo_wordmark.png": "/static/media/React_logo_wordmark.f153eb9f28437192c6a0.png",
+    "static/media/React2.png": "/static/media/React2.8a6fc0a24a800d1e0f4a.png",
+    "static/media/portfolio-empire-fable-1.jpg": "/static/media/portfolio-empire-fable-1.95f3508e372cdd3e410c.jpg",
+    "static/media/WordPress-Logo-2.png": "/static/media/WordPress-Logo-2.5b127cef4a1618be99fa.png",
+    "static/media/techBanner2.jpg": "/static/media/techBanner2.7c17981f0f8e576e89a4.jpg",
+    "static/media/techBanner1.jpg": "/static/media/techBanner1.afe9c6f00e8c065f8d62.jpg",
+    "static/media/WordPress-Logo-3.png": "/static/media/WordPress-Logo-3.30010e01dc3e26f61717.png",
+    "static/media/Godot.png": "/static/media/Godot.e71420dd55a65646652e.png",
+    "static/media/webdesign-3.jpg": "/static/media/webdesign-3.5d11056e1d032d1dbd03.jpg",
+    "static/media/Phaser.png": "/static/media/Phaser.d1702915456b7a99ccc3.png",
+    "static/media/CSS3.png": "/static/media/CSS3.cd13bf0a8423210549cb.png",
+    "static/media/WordPress-Logo.png": "/static/media/WordPress-Logo.9c3464a362df8cf1163c.png",
+    "static/media/techBanner5.jpg": "/static/media/techBanner5.7916694b54291437e344.jpg",
+    "static/media/techBanner4.jpg": "/static/media/techBanner4.b0f5a5bd8d6d978adefa.jpg",
+    "static/media/html5-css-js-logo.jpeg": "/static/media/html5-css-js-logo.93cf0fdbf979773acd0f.jpeg",
+    "static/media/js-logo-2.png": "/static/media/js-logo-2.a88896236ecbcc222ddb.png",
+    "static/media/webdesign-1.webp": "/static/media/webdesign-1.4b6a5144c4ead112bc02.webp",
+    "static/media/webdesign-2.webp": "/static/media/webdesign-2.f856cf3adc2f0b75bc50.webp",
+    "static/media/js-logo.jpg": "/static/media/js-logo.1cd8195b18547e95030b.jpg",
+    "static/media/techBanner3.jpg": "/static/media/techBanner3.6470880f77d1c0255d57.jpg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.4b16565f.css.map": "/static/css/main.4b16565f.css.map",
+    "main.119fc56e.js.map": "/static/js/main.119fc56e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b16565f.css",
+    "static/js/main.119fc56e.js"
+  ]
+}
